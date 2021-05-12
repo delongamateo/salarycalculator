@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Get your salary</h1>
+    <form class="salaryForm">
+      <input
+        type="text"
+        name="my_text"
+        value=""
+        placeholder="Enter your hourly pay"
+        id="hourlyPay"
+      />
+      <input
+        type="text"
+        name="my_text"
+        value=""
+        placeholder="How many hours a day you work?"
+        id="hoursPerDay"
+      />
+      <input
+        type="text"
+        name="my_text"
+        value=""
+        placeholder="How many days a month you work?"
+        id="daysInMonth"
+      />
+      <button onclick="calculate()" class="getstarted">
+        <strong>Get my salary</strong>
+      </button>
+    </form>
+    <h2 id="salary"></h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>
