@@ -10,6 +10,6 @@ const calculate = () => {
     const salary = hourlyPayValue * hoursPerDayValue * daysPerMonthValue;
 
     const message = document.querySelector("#salary");
-    message.textContent = "Your salary is " + salary
+    message.textContent = "Your salary is " + salary;
 
 }

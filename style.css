@@ -56,3 +56,8 @@ button {
   overflow: hidden;
   font-size: 1em;
 }
+
+#salary {
+  color: white;
+  text-decoration: underline;
+}
